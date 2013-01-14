@@ -1,10 +1,10 @@
 # .gitignore for Grails 1.2 and 1.3
 
 # web application files
-/web-app/WEB-INF
+#/web-app/WEB-INF
 
 # IDE support files
-/.classpath
+#/.classpath
 /.launch
 #/.project
 /.settings
@@ -58,7 +58,7 @@ tmp/
 *.swp
 *~.nib
 local.properties
-.classpath
+#.classpath
 .settings/
 .loadpath
 
