@@ -31,7 +31,7 @@
 #TODO Add a CLI checking
 
 #HEROKU API Token export because the authentication mechanism search for this environment variable
-export HEROKU_API_KEY=133596e7adb8cd7353abb843c80293f48e7a4a7f
+export HEROKU_API_KEY=c2e48178251d785edc0f9e4877345bbf73d53da3
 
 #Heroku installation mainly based on the official script (https://toolbelt.heroku.com/install.sh)
 HEROKU_HOME=`pwd`/heroku
@@ -62,7 +62,7 @@ yes | heroku keys:add
 
 
 #We define the Heroku application git remote repository
-heroku git:remote -a pile-qui-deborde
+heroku git:remote -a isima-under-flow
 
 #Finally, we can deploy using Git
 #Heroku Git-based deployment (https://devcenter.heroku.com/articles/git)
