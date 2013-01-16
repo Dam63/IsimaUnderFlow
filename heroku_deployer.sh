@@ -31,7 +31,7 @@
 #TODO Add a CLI checking
 
 #HEROKU API Token export because the authentication mechanism search for this environment variable
-export HEROKU_API_KEY=c2e48178251d785edc0f9e4877345bbf73d53da3
+export HEROKU_API_KEY=393955885f9a87daa9a486e77b69a7271f412e0b
 
 #Heroku installation mainly based on the official script (https://toolbelt.heroku.com/install.sh)
 HEROKU_HOME=`pwd`/heroku
