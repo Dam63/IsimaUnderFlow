@@ -62,7 +62,7 @@ yes | heroku keys:add
 
 
 #We define the Heroku application git remote repository
-heroku git:remote -a IsimaUnderFlow
+heroku git:remote -a isima-under-flow
 
 #Finally, we can deploy using Git
 #Heroku Git-based deployment (https://devcenter.heroku.com/articles/git)
