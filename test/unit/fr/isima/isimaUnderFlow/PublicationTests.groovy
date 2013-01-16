@@ -12,6 +12,6 @@ import org.junit.*
 class PublicationTests {
 
     void testSomething() {
-       fail "Implement me"
+		
     }
 }
