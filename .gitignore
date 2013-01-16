@@ -1,6 +1,6 @@
 # "temporary" build files
 /target
-
+/.link_to_grails_plugins
 
 # # .gitignore for Grails 1.2 and 1.3
 
