@@ -7,7 +7,8 @@ Tools used : http://goo.gl/uCcn0
 
 Heroku server :
 http://isima-under-flow.herokuapp.com
-
+***
+![Diagram](https://docs.google.com/drawings/d/1FeiUk5PT4Uu9_EV1uAf5dfV9zMEFpQNqW4r1bM2cpYU/pub?w=960&amp;h=720)
 ***
 ### News
 
