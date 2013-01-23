@@ -4,7 +4,7 @@ class Question extends Publication {
 	
 	String title
 	
-	Answer bestAnswer
+	Answer bestAnswer = null
 	
 	static oneToMany = [
 		Answer answers,
@@ -12,6 +12,6 @@ class Question extends Publication {
 	]
 	
     static constraints = {
-		
+		bestAnswer nullable:true
     }
 }

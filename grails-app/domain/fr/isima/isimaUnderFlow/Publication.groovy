@@ -9,14 +9,14 @@ class Publication {
 
 	Date publishDate
 
-	Integer mark
+	Integer mark = 0
 	
 	/**
 	 * Comment can have comments, so be sure that the hierarchy overflow
 	 * (many recursive comment) are handled
 	 */
-	static oneToMany = [
-		Comment comments
+	static hasMany = [
+		comments:Comment
 	]
 	
     static constraints = {
