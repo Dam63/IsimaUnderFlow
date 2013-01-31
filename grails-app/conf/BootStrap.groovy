@@ -33,7 +33,7 @@ class BootStrap {
 		Profile troll = new Profile([name:"Troll"]);
 		if(!troll.save(flush: true)) log.error troll.errors.toString()
 		
-		Question quest1 = new Question([title:"Première question",author:grailsHater,content:"Grails est-il vraiment utile dans la vie ?",publishDate:new Date()])
+		Question quest1 = new Question([title:"Premiere question",author:grailsHater,content:"Grails est-il vraiment utile dans la vie ?",publishDate:new Date()])
 			.addToComments(author:grailsHater,content:"Oups, wrong channel, sorry !",publishDate:new Date())
 			.addToComments(author:grailsLover,content:"Grails is Life <3, N00B !",publishDate:new Date())
 		if(!quest1.save(flush: true)) log.error quest1.errors.toString()

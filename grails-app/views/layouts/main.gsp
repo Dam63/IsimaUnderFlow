@@ -17,16 +17,25 @@
 		<g:layoutHead/>
 		<r:layoutResources />
 		<langs:resources ></langs:resources>
+		<!-- Bootstrap 1/2 -->
+    	<link href="${resource(dir: 'css', file: 'bootstrap.min.css')}"  type="text/css" rel="stylesheet" media="screen">
+    	<!-- ------------- -->
+    
 	</head>
 	<body>
 		<div id="grailsLogo" role="banner">
-			<a href="http://grails.org"><img src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="Grails"/></a>
-			<div> <g:message code="default.lang"/> <langs:selector langs="fr, en"/></div>
+			<div style="float: right"><langs:selector langs="fr, en"/></div>
+			<div style="float: right; margin-right:10px; clear: right"><g:login></g:login></div>
+			<a href="/IsimaUnderFlow/"><img src="${resource(dir: 'images', file: 'isima-under-flow-logo.png')}" alt="Isima Under Flow"/><h1>Isima Under Flow</h1></a>
 		</div>
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo"></div>
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
 		<g:javascript library="application"/>
 		<r:layoutResources />
+		
+		<!-- Bootstrap 2/2 -->
+		<script src="${resource(dir: 'js', file: 'bootstrap.min.js')}"></script>
+		<!-- ------------- -->
 	</body>
 </html>

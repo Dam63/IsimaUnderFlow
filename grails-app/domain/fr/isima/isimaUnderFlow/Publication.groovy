@@ -9,7 +9,7 @@ class Publication {
 
 	Date publishDate
 
-	Integer mark = 0
+	Integer votes = 0
 	
 	/**
 	 * Comment can have comments, so be sure that the hierarchy overflow

@@ -1,3 +1,4 @@
+<%@page import="fr.isima.isimaUnderFlow.Question"%>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -7,9 +8,11 @@
 	<body>
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div id="page-body" role="main">
-			<center><h1><g:message code="default.welcome"/></h1></center>
-			
-			<g:message code="default.login"/> | <g:message code="default.signin"/>
+			<div><h3 style="padding-left: 12px"><g:message code="default.lastQuestions"/></h3></div>
+			<g:each var="question" in="${Question.getAll()}">
+				<g:questionMini question="${question}"></g:questionMini>
+			</g:each>
+			<div style="clear: both; border-bottom: thin solid #BEBEBE"> </div>
 		</div>
 	</body>
 </html>

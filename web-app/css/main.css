@@ -1,3 +1,38 @@
+/* ISIMA UNDER FLOW CSS */
+.question-mini {
+	border-top: thin solid #BEBEBE;
+	clear: both;
+}
+
+.question-mini .votes, .question-mini .views, .question-mini .answers {
+	float: left;
+	height: 48px;
+	margin: 10px;
+	min-width: 48px;
+	text-align: center;
+}
+
+.question-mini .votes {
+	
+}
+
+.question-mini .views {
+	color: #BEBEBE;
+}
+
+.question-mini .answers {
+	color: #cdaf95;
+}
+
+.question-mini .row1, .question-mini .row2 {
+	padding-top:8px;
+	height:16px;
+	padding-left: 250px;
+}
+
+
+/* ******************** */
+
 /* FONT STACK */
 body,
 input, select, textarea {
@@ -39,7 +74,7 @@ html * {
 body {
 	background: #ffffff;
 	color: #333333;
-	margin: 0 auto;
+	margin: 0 auto !important;
 	max-width: 960px;
 	overflow-x: hidden; /* prevents box-shadow causing a horizontal scrollbar in firefox when viewport < 960px wide */
 	   -moz-box-shadow: 0 0 0.3em #255b17;
@@ -48,7 +83,16 @@ body {
 }
 
 #grailsLogo {
-	background-color: #abbf78;
+	background-color: #c1cdc1;/*abbf78;*/
+}
+
+#grailsLogo h1 {
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 25px;
+	color: #80abf8;
+	
+	border-bottom: medium solid #7afdff;
 }
 
 /* replace with .no-boxshadow body if you have modernizr available */
@@ -108,7 +152,7 @@ img {
 }
 
 .footer {
-	background: #abbf78;
+	background: #c1cdc1;
 	color: #000;
 	clear: both;
 	font-size: 0.8em;
