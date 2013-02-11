@@ -3,7 +3,8 @@
 
 StackOverFlow copy in ISIMA style
 
-Tools used : http://goo.gl/uCcn0
+Tools used :
+http://goo.gl/uCcn0
 
 Heroku server :
 http://isima-under-flow.herokuapp.com
