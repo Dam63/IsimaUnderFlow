@@ -25,7 +25,9 @@
 	<body>
 		<div id="grailsLogo" role="banner">
 			<div style="float: right"><langs:selector langs="fr, en"/></div>
-			<div style="float: right; margin-right:10px; clear: right"><g:login></g:login></div>
+			<div style="float: right; margin-right:10px; clear: right">
+				<g:login></g:login>
+			</div>
 			<a href="/IsimaUnderFlow/"><img src="${resource(dir: 'images', file: 'isima-under-flow-logo.png')}" alt="Isima Under Flow"/><h1>Isima Under Flow</h1></a>
 		</div>
 		<g:layoutBody/>
