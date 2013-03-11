@@ -25,7 +25,7 @@
 				</tr>
 				<tr>
 					<td><g:select from="${Profile.getAll()}" optionValue="name"
-							name="author"></g:select> or <g:link controller="Profile"
+							name="author" optionKey="id"></g:select> or <g:link controller="Profile"
 							action="create">Create new</g:link></td>
 				</tr>
 			</table>

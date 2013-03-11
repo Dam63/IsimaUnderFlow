@@ -7,8 +7,7 @@ class AskQuestionController {
 	}
 	
 	def add() {
-		//Profile p = Profile.findWhere(name:params.author)
-		Question q = new Question([title:params.title, content:params.question, publishDate:new Date(), author:params.author])
+		Question q = new Question([title:params.title, content:params.question, publishDate:new Date(), author:Profile.get(params.author)])
 		q.save(flush:true, failOnError:true)
 		redirect(action: "show", params:params)
 	}
