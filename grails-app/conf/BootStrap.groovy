@@ -36,6 +36,8 @@ class BootStrap {
 		Question quest1 = new Question([title:"Premiere question",author:grailsHater,content:"Grails est-il vraiment utile dans la vie ?",publishDate:new Date()])
 			.addToComments(author:grailsHater,content:"Oups, wrong channel, sorry !",publishDate:new Date())
 			.addToComments(author:grailsLover,content:"Grails is Life <3, N00B !",publishDate:new Date())
+			.addToTags(label:"GRAILS")
+			.addToTags(label:"GROOVY")
 		if(!quest1.save(flush: true)) log.error quest1.errors.toString()
 				
 		Answer answer1_1 = new Answer([question:quest1, author:troll, content:"42",publishDate:new Date()])

@@ -13,6 +13,5 @@ import org.junit.*
 class AskQuestionControllerTests {
 
     void testSomething() {
-       fail "Implement me"
     }
 }
